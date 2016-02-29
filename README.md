@@ -10,29 +10,26 @@ In this session, you'll learn all about DataStax Enterprise. It's a mix between 
 Hands On Setup
 -------------
 
-We have an 8 node cluster for you to play with! The cluster is currently running in both **search** and **analytics** mode so you can take advantage of both Spark and Solr on your Cassandra data. 
+We have an 5 node cluster for you to play with! The cluster is currently running in both **search** and **analytics** mode so you can take advantage of both Spark and Solr on your Cassandra data. 
 
 ```
 // To SSH into the cluster:
-ssh root@ipaddress 
+ssh datastax@ipaddress 
 // You can login to any of these nodes 
 
-Node 1: 52.26.162.19
-Node 2: 52.36.64.67
-Node 3: 52.36.214.40
-Node 4: 52.26.162.19
-Node 5: 52.36.159.175
-Node 6: 52.36.211.216
-Node 7: 52.36.213.110
-Node 8: 52.36.27.29
+Node 1: 138.91.146.245
+Node 2: 138.91.145.32
+Node 3: 138.91.148.247
+Node 4: 138.91.149.147
+Node 5: 138.91.149.184
 password: C@ssandra
 ```
 
 #### UI's you'll want to play around with
  
- - OpsCenter: http://52.36.149.123:8888/
- - Spark Master: http://52.36.149.123:7080
- - Solr UI: http://52.36.149.123:8983/solr/
+ - OpsCenter: http://138.91.148.235:8888
+ - Spark Master: http://138.91.148.235:7080
+ - Solr UI: http://138.91.148.235:8983/solr/
 
 #### Connecting to the cluster from DevCenter
 - Simply add a new connection
