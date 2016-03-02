@@ -125,9 +125,13 @@ Let's give it a shot.
 
 **In CQLSH**:
 
-```tracing on ;```
+```
+tracing on ;
+```
 
-```consistency all ;```
+```
+consistency all ;
+```
 
 >Any query will now be traced. **Consistency** of all means all 3 replicas need to respond to a given request (read OR write) to be successful. Let's do a **SELECT** statement to see the effects.
 
@@ -138,16 +142,22 @@ SELECT * FROM <yourkeyspace>.sales where name='<enter name>';
 How did we do? 
 
 **Let's compare a lower consistency level:**
-```consistency local_quorum```
+
+```
+consistency local_quorum ;
+```
+
 >Quorum means majority: RF/2 + 1. In our case, 3/2 = 1 + 1 = 2. At least 2 nodes need to acknowledge the request. 
 
 Let's try the **SELECT** statement again. Any changes in latency? 
 >Keep in mind that our dataset is so small, it's sitting in memory on all nodes. With larger datasets that spill to disk, the latency cost become much more drastic. 
 
 **Let's try this again** but this time, let's pay attention to what's happening in the trace
+
 ```
-consistency local_all
+consistency all ;
 ```
+
 ```
 SELECT * FROM <yourkeyspace>.sales where name='<enter name>';
 ```
