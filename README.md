@@ -201,7 +201,7 @@ SELECT * FROM <keyspace>.<table> WHERE solr_query=‘{"q":"column:*"}’;
 
 SELECT * FROM <keyspace>.sales WHERE solr_query='{"q":"name:chuck", "fq":"item:*pple*", "sort":"product:asc"}’; 
 ```
-SELECT * FROM chuckdstax.sales WHERE solr_query='{"q":”name:chuck", "fq":”item:*pple*", "sort":”product:asc"}’; 
+SELECT * FROM chuckdstax.sales WHERE solr_query='{"q":"name:chuck", "fq":"item:*pple*", "sort":"time:asc"}’; 
 
 > For your reference, [here's the doc](http://docs.datastax.com/en/datastax_enterprise/4.8/datastax_enterprise/srch/srchCql.html?scroll=srchCQL__srchSolrTokenExp) that shows some of things you can do
 
