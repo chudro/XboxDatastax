@@ -12,11 +12,13 @@ Hands On Setup
 
 We have an 5 node cluster for you to play with! The cluster is currently running in both **search** and **analytics** mode so you can take advantage of both Spark and Solr on your Cassandra data. 
 
-```
 // To SSH into the cluster:
+```
 ssh datastax@ipaddress 
+```
 // You can login to any of these nodes 
 
+```
 Node 1: 138.91.146.245
 Node 2: 138.91.145.32
 Node 3: 138.91.148.247
@@ -53,7 +55,9 @@ Cassandra is the brains of DSE. It's an awesome storage engine that handles repl
 
 Try the following CQL commands in DevCenter. In addition to DevCenter, you can also use **CQLSH** as an interactive command line tool for CQL access to Cassandra. Start CQLSH like this:
 
-```cqlsh 127.0.0.1``` 
+```
+cqlsh 127.0.0.1
+``` 
 > Make sure to replace 127.0.0.1 with the IP of the respective node 
 
 Let's make our first Cassandra Keyspace! 
