@@ -197,10 +197,12 @@ dsetool create_core <yourkeyspace>.sales generateResources=true reindex=true
 This by default will map Cassandra types to Solr types for you. Anyone familiar with Solr knows that there's a REST API for querying data. In DSE Search, we embed that into CQL so you can take advantage of all the goodness CQL brings. Let's give it a shot. 
 
 ```
-SELECT * FROM <keyspace>.<table> WHERE solr_query=‘{“q”:”column:*”}’;
+SELECT * FROM <keyspace>.<table> WHERE solr_query=‘{"q":"column:*"}’;
 
-SELECT * FROM <keyspace>.sales WHERE solr_query='{"q":”name:chuck", "fq":”item:*pple*", "sort":”product:asc"}’; 
+SELECT * FROM <keyspace>.sales WHERE solr_query='{"q":"name:chuck", "fq":"item:*pple*", "sort":"product:asc"}’; 
 ```
+SELECT * FROM chuckdstax.sales WHERE solr_query='{"q":”name:chuck", "fq":”item:*pple*", "sort":”product:asc"}’; 
+
 > For your reference, [here's the doc](http://docs.datastax.com/en/datastax_enterprise/4.8/datastax_enterprise/srch/srchCql.html?scroll=srchCQL__srchSolrTokenExp) that shows some of things you can do
 
 OK! Time to work with some more interesting data. Meet Amazon book sales data:
