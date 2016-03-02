@@ -79,17 +79,17 @@ CREATE TABLE <yourkeyspace>.sales (
 Let's get some data into your table! Cut and paste these inserts into DevCenter or CQLSH. Feel free to insert your own data values, as well. 
 
 ```
-INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('marc', 20150205, 'Apple Watch', 299.00);
-INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('marc', 20150204, 'Apple iPad', 999.00);
-INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('rich', 20150206, 'Music Man Stingray Bass', 1499.00);
-INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('marc', 20150207, 'Jimi Hendrix Stratocaster', 899.00);
-INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('rich', 20150208, 'Santa Cruz Tallboy 29er', 4599.00);
+INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('chuck', 20150205, 'Apple Watch', 299.00);
+INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('chuck', 20150204, 'Apple iPad', 999.00);
+INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('ben', 20150206, 'Music Man Stingray Bass', 1499.00);
+INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('chuck', 20150207, 'Jimi Hendrix Stratocaster', 899.00);
+INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('ben', 20150208, 'Santa Cruz Tallboy 29er', 4599.00);
 ```
 
 And to retrieve it:
 
 ```
-SELECT * FROM <keyspace>.sales where name='marc' AND time >=20150205 ;
+SELECT * FROM <keyspace>.sales where name='chuck' AND time >=20150205 ;
 ```
 >See what I did there? You can do range scans on clustering keys! Give it a try.
 
@@ -184,7 +184,7 @@ This by default will map Cassandra types to Solr types for you. Anyone familiar 
 ```
 SELECT * FROM <keyspace>.<table> WHERE solr_query=‘{“q”:”column:*”}’;
 
-SELECT * FROM <keyspace>.sales WHERE solr_query='{"q":”name:marc", "fq":”item:*pple*", "sort":”product:asc"}’; 
+SELECT * FROM <keyspace>.sales WHERE solr_query='{"q":”name:chuck", "fq":”item:*pple*", "sort":”product:asc"}’; 
 ```
 > For your reference, [here's the doc](http://docs.datastax.com/en/datastax_enterprise/4.8/datastax_enterprise/srch/srchCql.html?scroll=srchCQL__srchSolrTokenExp) that shows some of things you can do
 
