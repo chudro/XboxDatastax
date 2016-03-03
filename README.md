@@ -10,7 +10,7 @@ WIN A GOPRO!
 Click on this URL and sign up to win a GoPro:
 
 ```
-https://docs.google.com/forms/d/1mJ-f3Td3LcoXVa0wMSISNboOn65gBKjt8dCMjtYaj98
+https://docs.google.com/forms/d/1mJ-f3Td3LcoXVa0wMSISNboOn65gBKjt8dCMjtYaj98/
 ```
 
 Hands On Setup
