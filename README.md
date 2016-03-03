@@ -11,6 +11,26 @@ Click on this URL and sign up to win a GoPro:
 
 https://docs.google.com/forms/d/1mJ-f3Td3LcoXVa0wMSISNboOn65gBKjt8dCMjtYaj98/
 
+Instructions for setting up your cluster for Search + Analytics
+---------------------------------------------------------------
+// On each node, edit the following file:
+```
+sudo vi /etc/default/dse
+```
+// Change the following entries:
+
+```
+...
+SOLR_ENABLED=1
+...
+SPARK_ENABLED=1
+...
+```
+// Now restart DSE on each of the nodes (one at a time):
+```
+sudo service dse restart
+```
+
 Hands On Setup
 -------------
 
