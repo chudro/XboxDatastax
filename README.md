@@ -19,11 +19,11 @@ ssh datastax@ipaddress
 // You can login to any of these nodes 
 
 ```
-Node 1: 138.91.146.245
-Node 2: 138.91.145.32
-Node 3: 138.91.148.247
-Node 4: 138.91.149.147
-Node 5: 138.91.149.184
+node 1 (dc0vm0): 138.91.146.245 / 10.0.0.7
+Node 2 (dc0vm1): 138.91.145.32 / 10.0.0.6
+Node 3 (dc0vm2): 138.91.148.247 / 10.0.0.8
+Node 4 (dc0vm3): 138.91.149.147 / 10.0.0.9
+Node 5 (dc0vm4): 138.91.149.184 / 10.0.0.5
 password: C@ssandra
 ```
 
