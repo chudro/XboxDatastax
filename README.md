@@ -258,6 +258,8 @@ SELECT * FROM amazon.metadata WHERE solr_query='{"q":"title:Noir~", "facet":{"fi
 ```
 SELECT * FROM amazon.clicks WHERE solr_query='{"q":"asin:*", "fq":"+{!geofilt pt=\"37.7484,-122.4156\" sfield=location d=1}"}' limit 10; 
 ```
+For more info, check out https://cwiki.apache.org/confluence/display/solr/Spatial+Search
+
 > Joins: Not your relational joins. These queries 'borrow' indexes from other tables to add filter logic. These are fast! 
 ```
 SELECT * FROM amazon.metadata WHERE solr_query='{"q":"*:*", "fq":"{!join from=asin to=asin force=true fromIndex=amazon.clicks}area_code:415"}' limit 5; 
