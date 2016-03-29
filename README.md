@@ -1,7 +1,7 @@
 Welcome to XBOX DataStax Hands On Lunch & Learn
 ===================
 ![icon](http://i.imgur.com/FoIOBlt.png)
-![icon](http://imgur.com/Dq5iCgf)
+![icon](http://i.imgur.com/Dq5iCgf.png)
 
 In this session, you'll learn all about DataStax Enterprise. It's a mix between presentation and hands-on. This is **obviously** your reference for the hands-on content. Feel free to bookmark this page for future reference! 
 
