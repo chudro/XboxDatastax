@@ -1,6 +1,8 @@
 Welcome to XBOX DataStax Hands On Lunch & Learn
 ===================
 ![icon](http://i.imgur.com/FoIOBlt.png)
+
+
 ![icon](http://i.imgur.com/Dq5iCgf.png)
 
 In this session, you'll learn all about DataStax Enterprise. It's a mix between presentation and hands-on. This is **obviously** your reference for the hands-on content. Feel free to bookmark this page for future reference! 
@@ -18,20 +20,24 @@ ssh datastax@ipaddress
 // You can login to any of these nodes 
 
 ```
-node 1 (dc0vm0): 138.91.146.245 / 10.0.0.7
-Node 2 (dc0vm1): 138.91.145.32 / 10.0.0.6
-Node 3 (dc0vm2): 138.91.148.247 / 10.0.0.8
-Node 4 (dc0vm3): 138.91.149.147 / 10.0.0.9
-Node 5 (dc0vm4): 138.91.149.184 / 10.0.0.5
+Node 1 dc0vm0: 52.160.90.217 / 10.0.0.4 / dc0vm0sktymmqpua6vu.westus.cloudapp.azure.com
+Node 2 dc0vm1: 13.93.150.138 / 10.0.0.7 / dc0vm1sktymmqpua6vu.westus.cloudapp.azure.com
+Node 3 dc0vm2: 52.160.89.137 / 10.0.0.9 / dc0vm2sktymmqpua6vu.westus.cloudapp.azure.com
+Node 4 dc0vm3: 13.93.144.123 / 10.0.0.6 / dc0vm3sktymmqpua6vu.westus.cloudapp.azure.com
+Node 5 dc0vm4: 13.93.145.247 / 10.0.0.8 / dc0vm4sktymmqpua6vu.westus.cloudapp.azure.com
+username: datastax
 password: C@ssandra
 ```
 
 #### UI's you'll want to play around with
  
- - OpsCenter: http://138.91.148.235:8888
- - Spark Master: http://138.91.146.245:7080
+13.93.149.154
+http://13.93.149.154:8888/opscenter/index.html
+opscentersktymmqpua6vu.westus.cloudapp.azure.com
+ - OpsCenter: http://13.93.149.154:8888
+ - Spark Master: http://13.93.145.247:7080
    - then click "Back to Master"
- - Solr UI: http://138.91.146.245:8983/solr/
+ - Solr UI: http://52.160.90.217:8983/solr/
 
 #### Connecting to the cluster from DevCenter
 - Simply add a new connection
