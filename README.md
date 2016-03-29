@@ -19,26 +19,22 @@ ssh datastax@ipaddress
 // You can login to any of these nodes 
 
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 =======
->>>>>>> 6df8cd290cdb89d274333ba35dfbaec0c23df61a
 Node 1 dc0vm0: 52.160.90.217 / 10.0.0.4 / dc0vm0sktymmqpua6vu.westus.cloudapp.azure.com
 Node 2 dc0vm1: 13.93.150.138 / 10.0.0.7 / dc0vm1sktymmqpua6vu.westus.cloudapp.azure.com
 Node 3 dc0vm2: 52.160.89.137 / 10.0.0.9 / dc0vm2sktymmqpua6vu.westus.cloudapp.azure.com
 Node 4 dc0vm3: 13.93.144.123 / 10.0.0.6 / dc0vm3sktymmqpua6vu.westus.cloudapp.azure.com
 Node 5 dc0vm4: 13.93.145.247 / 10.0.0.8 / dc0vm4sktymmqpua6vu.westus.cloudapp.azure.com
 username: datastax
-<<<<<<< HEAD
 =======
 node 1 (dc0vm0): 138.91.146.245 / 10.0.0.7
 Node 2 (dc0vm1): 138.91.145.32 / 10.0.0.6
 Node 3 (dc0vm2): 138.91.148.247 / 10.0.0.8
 Node 4 (dc0vm3): 138.91.149.147 / 10.0.0.9
 Node 5 (dc0vm4): 138.91.149.184 / 10.0.0.5
->>>>>>> e468519130496c1160e0ecf6137a7ab4e3080631
 =======
->>>>>>> 6df8cd290cdb89d274333ba35dfbaec0c23df61a
+username: datastax
 password: C@ssandra
 ```
 
@@ -54,7 +50,6 @@ password: C@ssandra
  - Spark Master: http://138.91.146.245:7080
    - then click "Back to Master"
  - Solr UI: http://138.91.146.245:8983/solr/
->>>>>>> e468519130496c1160e0ecf6137a7ab4e3080631
 =======
  - OpsCenter: http://13.93.149.154:8888
  - Spark Master: http://13.93.145.247:7080
@@ -113,8 +108,7 @@ Let's get some data into your table! Cut and paste these inserts into DevCenter 
 ```
 INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('chuck', 20150205, 'Apple Watch', 299.00);
 INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('chuck', 20150204, 'Apple iPad', 999.00);
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('brett', 20150206, 'Music Man Stingray Bass', 1499.00);
 INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('chuck', 20150207, 'Jimi Hendrix Stratocaster', 899.00);
 INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('brett', 20150208, 'Santa Cruz Tallboy 29er', 4599.00);
@@ -122,12 +116,10 @@ INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('brett', 2015
 INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('ben', 20150206, 'Music Man Stingray Bass', 1499.00);
 INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('chuck', 20150207, 'Jimi Hendrix Stratocaster', 899.00);
 INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('ben', 20150208, 'Santa Cruz Tallboy 29er', 4599.00);
->>>>>>> e468519130496c1160e0ecf6137a7ab4e3080631
 =======
 INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('brett', 20150206, 'Music Man Stingray Bass', 1499.00);
 INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('chuck', 20150207, 'Jimi Hendrix Stratocaster', 899.00);
 INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('brett', 20150208, 'Santa Cruz Tallboy 29er', 4599.00);
->>>>>>> 6df8cd290cdb89d274333ba35dfbaec0c23df61a
 ```
 
 And to retrieve it:
