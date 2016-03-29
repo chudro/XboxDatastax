@@ -1,35 +1,10 @@
-Welcome to DataStax Essentials Day!
+Welcome to XBOX DataStax Hands On Lunch & Learn
 ===================
 ![icon](http://i.imgur.com/FoIOBlt.png)
+![icon](http://i.imgur.com/Dq5iCgf)
 
 In this session, you'll learn all about DataStax Enterprise. It's a mix between presentation and hands-on. This is **obviously** your reference for the hands-on content. Feel free to bookmark this page for future reference! 
 
-----------
-
-WIN A GOPRO!
-Click on this URL and sign up to win a GoPro:
-
-https://docs.google.com/forms/d/1mJ-f3Td3LcoXVa0wMSISNboOn65gBKjt8dCMjtYaj98/
-
-Instructions for setting up your cluster for Search + Analytics
----------------------------------------------------------------
-// On each node, edit the following file:
-```
-sudo vi /etc/default/dse
-```
-// Change the following entries:
-
-```
-...
-SOLR_ENABLED=1
-...
-SPARK_ENABLED=1
-...
-```
-// Now restart DSE on each of the nodes (one at a time):
-```
-sudo service dse restart
-```
 
 Hands On Setup
 -------------
