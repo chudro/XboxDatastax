@@ -26,13 +26,6 @@ Node 2 dc0vm1: 13.93.150.138 / 10.0.0.7 / dc0vm1sktymmqpua6vu.westus.cloudapp.az
 Node 3 dc0vm2: 52.160.89.137 / 10.0.0.9 / dc0vm2sktymmqpua6vu.westus.cloudapp.azure.com
 Node 4 dc0vm3: 13.93.144.123 / 10.0.0.6 / dc0vm3sktymmqpua6vu.westus.cloudapp.azure.com
 Node 5 dc0vm4: 13.93.145.247 / 10.0.0.8 / dc0vm4sktymmqpua6vu.westus.cloudapp.azure.com
-username: datastax
-=======
-node 1 (dc0vm0): 138.91.146.245 / 10.0.0.7
-Node 2 (dc0vm1): 138.91.145.32 / 10.0.0.6
-Node 3 (dc0vm2): 138.91.148.247 / 10.0.0.8
-Node 4 (dc0vm3): 138.91.149.147 / 10.0.0.9
-Node 5 (dc0vm4): 138.91.149.184 / 10.0.0.5
 =======
 username: datastax
 password: C@ssandra
