@@ -31,9 +31,6 @@ password: C@ssandra
 
 #### UI's you'll want to play around with
  
-13.93.149.154
-http://13.93.149.154:8888/opscenter/index.html
-opscentersktymmqpua6vu.westus.cloudapp.azure.com
  - OpsCenter: http://13.93.149.154:8888
  - Spark Master: http://13.93.145.247:7080
    - then click "Back to Master"
@@ -90,9 +87,9 @@ Let's get some data into your table! Cut and paste these inserts into DevCenter 
 ```
 INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('chuck', 20150205, 'Apple Watch', 299.00);
 INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('chuck', 20150204, 'Apple iPad', 999.00);
-INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('ben', 20150206, 'Music Man Stingray Bass', 1499.00);
+INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('brett', 20150206, 'Music Man Stingray Bass', 1499.00);
 INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('chuck', 20150207, 'Jimi Hendrix Stratocaster', 899.00);
-INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('ben', 20150208, 'Santa Cruz Tallboy 29er', 4599.00);
+INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('brett', 20150208, 'Santa Cruz Tallboy 29er', 4599.00);
 ```
 
 And to retrieve it:
