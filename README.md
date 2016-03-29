@@ -1,16 +1,7 @@
 Welcome to XBOX DataStax Hands On Lunch & Learn
 ===================
 ![icon](http://i.imgur.com/FoIOBlt.png)
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-
-=======
->>>>>>> e468519130496c1160e0ecf6137a7ab4e3080631
-=======
-
-
->>>>>>> 6df8cd290cdb89d274333ba35dfbaec0c23df61a
 ![icon](http://i.imgur.com/Dq5iCgf.png)
 
 In this session, you'll learn all about DataStax Enterprise. It's a mix between presentation and hands-on. This is **obviously** your reference for the hands-on content. Feel free to bookmark this page for future reference! 
@@ -53,8 +44,7 @@ password: C@ssandra
 
 #### UI's you'll want to play around with
  
-<<<<<<< HEAD
-<<<<<<< HEAD
+
  - OpsCenter: http://13.93.149.154:8888
  - Spark Master: http://13.93.145.247:7080
    - then click "Back to Master"
@@ -157,24 +147,19 @@ Hands On Cassandra Primary Keys
 
 There are just a few key concepts you need to know when beginning to data model in Cassandra. But if you want to know the real secret sauce to solving your use cases and getting great performance, then you need to understand how Primary Keys work in Cassandra. 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 =======
->>>>>>> 6df8cd290cdb89d274333ba35dfbaec0c23df61a
 Let's dive in! Check out the following site and the types of queries enabled by different primary keys:
 Let's dive in! Check out [this exercise for understanding how primary keys work](https://github.com/012345/CassandraPrimaryKeys) and the types of queries enabled by different primary keys.
 
 Another exercise in understanding how primary keys work:
 
-<<<<<<< HEAD
 	https://github.com/RichReffner/Cassandra-Primary-Key-Exercise
 
 =======
 Let's dive in! Check out [this exercise for understanding how primary keys work](https://github.com/RichReffner/Cassandra-Primary-Key-Exercise/blob/master/README.md) and the types of queries enabled by different primary keys.
->>>>>>> e468519130496c1160e0ecf6137a7ab4e3080631
 =======
 	https://github.com/RichReffner/Cassandra-Primary-Key-Exercise/blob/master/README.md
->>>>>>> 6df8cd290cdb89d274333ba35dfbaec0c23df61a
 
 ----------
 
