@@ -87,8 +87,8 @@ CREATE TABLE <yourkeyspace>.sales (
 Let's get some data into your table! Cut and paste these inserts into DevCenter or CQLSH. Feel free to insert your own data values, as well. 
 
 ```
-INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('chuck', 20150205, 'Apple Watch', 299.00);
-INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('chuck', 20150204, 'Apple iPad', 999.00);
+INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('chuck', 20150205, 'Xbox 360', 199.00);
+INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('chuck', 20150204, 'Surface Pro 4 - 128GB', 899.00);
 
 INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('brett', 20150206, 'Music Man Stingray Bass', 1499.00);
 INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('chuck', 20150207, 'Jimi Hendrix Stratocaster', 899.00);
