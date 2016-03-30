@@ -121,11 +121,6 @@ Another exercise in understanding how primary keys work:
 
 	https://github.com/RichReffner/Cassandra-Primary-Key-Exercise
 
-=======
-Let's dive in! Check out [this exercise for understanding how primary keys work](https://github.com/RichReffner/Cassandra-Primary-Key-Exercise/blob/master/README.md) and the types of queries enabled by different primary keys.
-=======
-	https://github.com/RichReffner/Cassandra-Primary-Key-Exercise/blob/master/README.md
-
 ----------
 
 
