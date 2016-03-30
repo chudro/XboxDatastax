@@ -93,14 +93,6 @@ INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('chuck', 2015
 INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('brett', 20150206, 'Music Man Stingray Bass', 1499.00);
 INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('chuck', 20150207, 'Jimi Hendrix Stratocaster', 899.00);
 INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('brett', 20150208, 'Santa Cruz Tallboy 29er', 4599.00);
-=======
-INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('ben', 20150206, 'Music Man Stingray Bass', 1499.00);
-INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('chuck', 20150207, 'Jimi Hendrix Stratocaster', 899.00);
-INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('ben', 20150208, 'Santa Cruz Tallboy 29er', 4599.00);
-=======
-INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('brett', 20150206, 'Music Man Stingray Bass', 1499.00);
-INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('chuck', 20150207, 'Jimi Hendrix Stratocaster', 899.00);
-INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('brett', 20150208, 'Santa Cruz Tallboy 29er', 4599.00);
 ```
 
 And to retrieve it:
@@ -372,4 +364,5 @@ dsetool create_core //will create a Solr schema on Cassandra data for Search
 ```
 /var/log/cassandra/system.log
 ```
+
 
