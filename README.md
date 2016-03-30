@@ -34,7 +34,7 @@ password: C@ssandra
 #### UI's you'll want to play around with
 
  - OpsCenter: http://13.93.149.154:8888
- - Spark Master: http://13.93.145.247:7080
+ - Spark Master: http://13.93.150.138:7080
    - then click "Back to Master"
  - Solr UI: http://52.160.90.217:8983/solr/
 
@@ -211,16 +211,19 @@ This by default will map Cassandra types to Solr types for you. Anyone familiar 
 ```
 SELECT * FROM <keyspace>.<table> WHERE solr_query=‘{"q":"column:*"}’;
 
-SELECT * FROM <keyspace>.sales WHERE solr_query='{"q":"name:chuck", "fq":"item:*pple*", "sort":"time asc"}’; 
+SELECT * FROM <keyspace>.sales WHERE solr_query='{"q":"name:chuck", "fq":"item:*Pro*", "sort":"time asc"}’; 
 ```
 
 > For your reference, [here's the doc](http://docs.datastax.com/en/datastax_enterprise/4.8/datastax_enterprise/srch/srchCql.html?scroll=srchCQL__srchSolrTokenExp) that shows some of things you can do
 
 OK! Time to work with some more interesting data. Meet Amazon book sales data:
->Note: This data is already in the DB, if you want to try it at home, [CLICK ME](https://github.com/Marcinthecloud/Solr-Amazon-Book-Demo). 
+>Note: This data is already in the DB, if you want to try it at home, [CLICK ME]https://github.com/Marcinthecloud/Solr-Amazon-Book-Demo).://github.com/chudro/Solr-Amazon-Book-Demo)
 
 Click stream data:
 ```
+
+CREATE KEYSPACE amazon WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 3 };
+
 CREATE TABLE amazon.clicks (
     asin text,
     seq timeuuid,
