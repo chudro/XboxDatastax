@@ -258,6 +258,45 @@ CREATE TABLE amazon.metadata (
 );
 ```
 
+So how do we set this up within our Azure Instances?
+Setup the Amazon Dataset
+
+```sudo apt-get install python-pip```
+
+```sudo pip install cassandra-driver```
+
+```sudo apt-get install git```
+
+```git clone https://github.com/Marcinthecloud/Solr-Amazon-Book-Demo.git```
+
+```cd Solr-Amazon-Book-Demo/```
+
+Edit the loader 
+> run ‘ifconfig’ and look to see what your 10.0.0.x address is
+
+```
+ifconfig
+```
+
+Edit the solr_dataloader.py file
+
+```
+sudo vi solr_dataloader.py
+```
+
+> Change the line  cluster = Cluster(['node0','node1','node2']) to cluster = Cluster(['10.0.0.X’]) 
+> Make sure to replace 127.0.0.1 with the IP of the respective node 
+
+```
+sudo python solr_dataloader.py
+
+./create_core.sh
+```
+
+
+
+```
+
 > Example page of what's in the DB http://www.amazon.com/Science-Closer-Look-Grade-6/dp/0022841393/ref=sr_1_1?ie=UTF8&qid=1454964627&sr=8-1&keywords=0022841393
 
 So what are things you can do? 
