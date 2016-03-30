@@ -217,7 +217,7 @@ SELECT * FROM <keyspace>.sales WHERE solr_query='{"q":"name:chuck", "fq":"item:*
 > For your reference, [here's the doc](http://docs.datastax.com/en/datastax_enterprise/4.8/datastax_enterprise/srch/srchCql.html?scroll=srchCQL__srchSolrTokenExp) that shows some of things you can do
 
 OK! Time to work with some more interesting data. Meet Amazon book sales data:
->Note: This data is already in the DB, if you want to try it at home, [CLICK ME])(http://github.com/chudro/Solr-Amazon-Book-Demo)
+>Note: This data is already in the DB, if you want to try it at home, [CLICK ME](http://github.com/chudro/Solr-Amazon-Book-Demo)
 
 Click stream data:
 ```
