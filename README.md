@@ -323,6 +323,13 @@ Want to see a really cool example of a live DSE Search app? Check out [KillrVide
 ----------
 
 
+Hands On Search with JSON
+--------------------
+The following provides an example of how to do a search on elements in a stored JSON document: [An Introduction to DSE Field Transformers](http://www.datastax.com/dev/blog/dse-field-transformers)
+
+In the next release of DataStax Enterprise, support for JSON datatype will be provided.
+
+
 Hands On DSE Analytics
 --------------------
 
