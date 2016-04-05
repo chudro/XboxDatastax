@@ -34,7 +34,7 @@ password: C@ssandra
 #### UI's you'll want to play around with
 
  - OpsCenter: http://13.93.149.154:8888
- - Spark Master: http://13.93.150.138:7080
+ - Spark Master: http://52.160.89.137:7080
    - then click "Back to Master"
  - Solr UI: http://52.160.90.217:8983/solr/
 
